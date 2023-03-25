@@ -22,7 +22,7 @@ const connectDB = () => mongoose
 });
 
 //middlewares
-app.use(cors({ origin: ["http://localhost:3000", "http://localhost:3001"]}));
+app.use(cors({ origin: ["http://localhost:3000", "http://localhost:3001", "https://flameluxury.netlify.app", "https://flameluxuryadmin.netlify.app"]}));
 app.use(express.json());
 
 //body parser 
