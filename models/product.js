@@ -10,6 +10,7 @@ const ProductSchema = new mongoose.Schema(
         size: { type: Array },
         color: { type: Array },
         price: { type: Number, required: true },
+        rating: { type: Number },
         status: { type: Boolean },
         inStock: { type: Boolean, default: true },
     },
